@@ -1,0 +1,30 @@
+﻿@using WebApplication.Models.Profile
+@model ProfileModel
+
+@{
+    ViewBag.Title = "Profile View";
+}
+
+<table style="margin-bottom: 20px; background-color: #f2f2f2">
+    <tr>
+        <td width="120" style=" padding: 30px 10px 15px 20px;">
+           
+            <img src="~/Images/ProfilePictures/@Model.PictureFileName" alt="@Model.FullName" />
+        </td>
+        <td width="560" style="vertical-align: top; padding-right: 20px; padding-top: 18px;">
+
+            <h1 class="formHead2"> @Model.FullName </h1>
+                <span class="formText07"> @Model.JobTitle </span>
+                <br />
+            
+                <span class="formText07"> @Model.Company </span>
+                <br />
+            
+
+            <span class="formText07"> @Model.SPIERole</span>
+            <br />
+            <br />
+
+        </td>
+    </tr>
+</table>
