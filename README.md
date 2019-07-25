@@ -25,9 +25,9 @@ Pull down a zip of this by clicking the "Clone or download" link on the upper ri
 
 # Functionality Adds
 * Add the ability to use the search bar, and have it display a list of profiles that have a partial match with either first or last name
-** *NOTE* this should NOT do the search logic in the view itself, this isn't display logic, so it shouldn't go in the display part of the website!
+  * *NOTE* this should NOT do the search logic in the view itself, this isn't display logic, so it shouldn't go in the display part of the website!
 * Add the ability for someone to edit a profile and have it update
-** Also can move this ability to edit behind a log in, so random users can't maliciously edit someone else's profile!
+  * Also can move this ability to edit behind a log in, so random users can't maliciously edit someone else's profile!
 * Add the ability for a profile user to log into the website
 
 
