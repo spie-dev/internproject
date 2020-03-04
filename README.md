@@ -1,7 +1,7 @@
 This is a simple test project designed for you to show off your technical skills in C# .NET MVC. The setup for this test is pretty simple. SPIE has a section of our website that displays the profiles of various SPIE and SPIE-affiliated people. This code is the initial development of that profiles section. Unfortunately, it has some bugs and missing functionality.
 
 # Your task
-Fix the bugs and add as much new functionality as you can in the given amount of time, then add it in a private github repo for us to review. You are NOT expected to get all of this done, it is instead a wide array of functionality so you can show your full array of skills. *NOTE* you CAN use any and all web/book resources, this is a test of your programming skills as if you were on the job, not a school quiz.
+Fix the bugs and add as much new functionality as you can in the given amount of time, but don't feel the need to spend endless hours on this.  Limit yourself to 10 hours maximum. You are NOT expected to get all of this done, it is instead a wide array of functionality so you can show your full array of skills. *NOTE* you CAN use any and all web/book resources, this is a test of your programming skills as if you were on the job, not a school quiz.
 
 If you DO get all listed bug fixes/functionality done, feel free to add other functionality you think makes sense, or, if you find other bugs not listed here, fix them as well. Make sure to call out these additions, though, so we can be sure we look at them!
 
@@ -9,9 +9,6 @@ The bug fixes should be *production level* fixes. So things to think about:
 1. Will this work with more/less data than is provided?
 2. Does it do enough try/catches to prevent the website from blowing up if something goes weird?
 3. Do you need to add comments or refactor code so it's clear for future devs to maintain?
-
-# How to get this project
-Pull down a zip of this by clicking the "Clone or download" link on the upper right of this repo, and select "Download Zip". Unzip into your "My Documents" folder, and open the WebApplication.sln with visual studio. Use ctrl+shift+b to build the project, then click the "IIS Express" at the top to run the website.
 
 # Bug fixes
 * On the home page, the search profiles text box doesn't line up with the magnifying glass. Change it so the bottom of the text box lines up with the magnifying glass image
@@ -28,10 +25,14 @@ Pull down a zip of this by clicking the "Clone or download" link on the upper ri
 * Add the ability for a profile user to log into the website
 
 
-# How to submit this
-1. Create a new private repo in GitHub
-2. Install the Github extension for visual studio (in visual studio, click tools->"extensions and updates" and search for "Github Extension for Visual Studio")
-3. Connect to GitHub and the repo with Visual studio. Use the [extension's website](https://visualstudio.github.com/) to see screenshots of how to connect
-4. Update your README.md file to specify what bug fixes and functionality adds you did, as well as any new instructions for set up
-5. Push your modified code to your private repo
-6. Send your SPIE contact an invite to the repo
+# How to access and submit this project
+
+1. Initialize a new local .git repository (git init .)
+2. Inside your new repo, run 'git clone [URL of SPIE intern project here]'. You can access this clone link by clicking the green 'clone/download' button in the upper right corner of the Code tab on Github. You should now have all the starter files that you need.
+3. Open the WebApplication.sln with visual studio. Use ctrl+shift+b to build the project, then click the "IIS Express" at the top to run the website.
+
+4. Go about your bug fixes / enhancements (preferably committing often throughout.  No need to git-push anything)
+5. Update your README.md file to specify what bug fixes and functionality adds you did, as well as any new instructions for set up
+6. When you're all done, you can create a git bundle with the command 'git bundle create your_name.bundle master', and send the generated bundle file to your SPIE contact.
+
+In order to test that your bundling worked, you can un-bundle the repo by cloning the bundle file (git clone your_name.bundle).  Then change into the new directory that was generated, and run 'git pull origin master'.  At this point, the directory should look exactly as you left it before you bundled!
