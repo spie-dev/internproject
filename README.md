@@ -28,7 +28,7 @@ The bug fixes should be *production level* fixes. So things to think about:
 # How to access and submit this project
 
 1. Initialize a new local .git repository (git init .)
-2. Inside your new repo, run 'git clone [URL of SPIE intern project here]'. You can access this clone link by clicking the green 'clone/download' button in the upper right corner of the Code tab on Github. You should now have all the starter files that you need.
+2. Inside your new repo, run 'git PULL [URL of SPIE intern project here]'. You can access this pull link by clicking the green 'clone/download' button in the upper right corner of the Code tab on Github. You should now have all the starter files that you need.
 3. Open the WebApplication.sln with visual studio. Use ctrl+shift+b to build the project, then click the "IIS Express" at the top to run the website.
 
 4. Go about your bug fixes / enhancements (preferably committing often throughout.  No need to git-push anything)
