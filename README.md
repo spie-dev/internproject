@@ -1,7 +1,7 @@
-This is a simple test project designed for you to show off your technical skills in C# .NET MVC. The setup for this test is pretty simple. SPIE has a section of our website that displays the profiles of various SPIE and SPIE-affiliated people. This code is the initial development of that profiles section. Unfortunately, it has some bugs and missing functionality.
+This is a simple test project designed for you to show off your technical skills in C# and .NET MVC. The setup for this test is pretty simple: SPIE has a section of our website that displays the profiles of various SPIE and SPIE-affiliated people. This code is the initial development of that profiles section. Unfortunately, it has some bugs and missing functionality.
 
 # Your task
-Fix the bugs and add as much new functionality as you can in the given amount of time, but don't feel the need to spend endless hours on this.  Limit yourself to 10 hours maximum. You are NOT expected to get all of this done, it is instead a wide array of functionality so you can show your full array of skills. *NOTE* you CAN use any and all web/book resources, this is a test of your programming skills as if you were on the job, not a school quiz.
+Fix the bugs and add as much new functionality as you can in the given amount of time, but don't feel the need to spend endless hours on this.  Limit yourself to 10 hours maximum. You are NOT expected to get all of this done; it is instead a wide array of functionality so you can show your full array of skills. *NOTE* you CAN use any and all web/book resources. This is a test of your programming and troubleshooting skills as if you were on the job, not a school quiz.
 
 If you DO get all listed bug fixes/functionality done, feel free to add other functionality you think makes sense, or, if you find other bugs not listed here, fix them as well. Make sure to call out these additions, though, so we can be sure we look at them!
 
@@ -9,6 +9,7 @@ The bug fixes should be *production level* fixes. So things to think about:
 1. Will this work with more/less data than is provided?
 2. Does it do enough try/catches to prevent the website from blowing up if something goes weird?
 3. Do you need to add comments or refactor code so it's clear for future devs to maintain?
+4. Can you write unit tests to ensure your fix works and stays fixed when others make changes in the future?
 
 # Bug fixes
 * On the home page, the search profiles text box doesn't line up with the magnifying glass. Change it so the bottom of the text box lines up with the magnifying glass image
